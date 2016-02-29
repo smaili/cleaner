@@ -18,11 +18,14 @@
 #
 #------------------------------------------------------------------------
 
+
 # Imports
 #------------------------------------------------------------------------
 import config, poster, socket, urllib2
 
 
+# Functions
+#------------------------------------------------------------------------
 def clean():
     try:
         opener = poster.streaminghttp.register_openers()
@@ -35,7 +38,6 @@ def clean():
         clean()
     except:
         print "There was an error. Shutting down..."
-
 
 
 # Main
