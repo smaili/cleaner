@@ -20,6 +20,7 @@
 
 
 # CLEAN
+#------------------------------------------------------------------------
 CLEAN_URL = 'http://rtimg.com/c'
 CLEAN_U = 'mike'
 CLEAN_P = 'shenzhen'
